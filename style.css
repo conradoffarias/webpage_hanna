@@ -1,0 +1,509 @@
+body {
+    margin: 0%;
+}
+
+/* navbar */
+
+.topnav a:hover {
+    background: #C8E145;
+    color: black;
+  }
+
+
+.topnav {
+    background-color: #8D4396;
+    overflow: hidden;
+    position: fixed;
+    font-family: 'Playfair Display', serif;
+    top: 0; 
+    width: 100%;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C8E145;
+}
+
+.section_sobre h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* produtos */
+
+.container_sobre {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container_produtos {
+    background-color: #8D4396;
+    color: #f7f3f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_button {
+    text-align: center;
+}
+
+.container_button button {
+    border-color: #f7f3f0;
+    color: #8D4396;
+    box-shadow: 0 0 40px 40px #f7f3f0 inset, 0 0 0 0 #C8E145;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container_button button:hover {
+    box-shadow: 0 0 10px 0 #C8E145 inset, 0 0 10px 4px #C8E145;
+}
+
+.container_button_1 {
+    text-align: center;
+}
+
+.container_button_1 button {
+    border-color: #8D4396;
+    color: #f7f3f0;
+    box-shadow: 0 0 40px 40px #8D4396 inset, 0 0 0 0 #C8E145;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container_button_1 button:hover {
+    box-shadow: 0 0 10px 0 #C8E145 inset, 0 0 10px 4px #C8E145;
+}
+
+.container_consultoria {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container_mentoria {
+    background-color: #8D4396;
+    color: #f7f3f0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.footer_main {
+    background-color: #C8E145;
+    margin: 0%;
+}
+
+.footer_main p {
+    margin: 0%;
+}
+
+/* responsivity */
+
+@media (max-width: 320px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .container_sobre {
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section_sobre h2 {
+        font-size: 18px;
+    }
+
+    .section_sobre p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .section_sobre img {
+        width: 80%;
+        margin-left: 28px;
+        margin-bottom: 15px;
+    }
+
+    .container_produtos {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .section_produtos h2 {
+        font-size: 20px;
+    }
+
+    .section_produtos h3 {
+        font-size: 18px;
+    }
+
+    .section_produtos p {
+        font-size: 13px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .section_produtos img {
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .container_button {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .container_button button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container_consultoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container_consultoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_consultoria h3 {
+        margin-top: 30px;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    .container_consultoria ul {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .container_consultoria p {
+        font-size: 13px;
+        text-align: left;
+    }
+    
+    .container_button_1 {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .container_button_1 button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container_consultoria img {
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .container_mentoria {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container_mentoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_mentoria #mentoria_nome {
+        font-size: 18px;
+    }
+
+    .container_mentoria p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .container_mentoria img {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer_main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .container_sobre {
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section_sobre h2 {
+        font-size: 20px;
+    }
+
+    .section_sobre p {
+        font-size: 15px;
+        text-align:left;
+    }
+
+    .section_sobre img {
+        width: 80%;
+        margin-left: 32px;
+        margin-bottom: 15px;
+    }
+
+    .container_produtos {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section_produtos h2 {
+        font-size: 20px;
+    }
+
+    .section_produtos h3 {
+        font-size: 19px;
+    }
+
+    .section_produtos p {
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .section_produtos img {
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .container_button {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    .container_button button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container_consultoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .container_consultoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_consultoria #consultoria_nome {
+        font-size: 18px;
+    }
+
+    .container_consultoria p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .container_consultoria img {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .container_mentoria {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+   .container_mentoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_mentoria #mentoria_nome {
+        font-size: 18px;
+    }
+
+    .container_mentoria p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .container_mentoria img {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer_main {
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .container_sobre {
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section_sobre h2 {
+        font-size: 20px;
+    }
+
+    .section_sobre p {
+        font-size: 15px;
+        text-align:left;
+    }
+
+    .section_sobre img {
+        width: 80%;
+        margin-left: 38px;
+        margin-bottom: 15px;
+    }
+
+    .container_produtos {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section_produtos h2 {
+        font-size: 20px;
+    }
+
+    .section_produtos h3 {
+        font-size: 19px;
+    }
+
+    .section_produtos p {
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .section_produtos img {
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .container_button {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    .container_button button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container_consultoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container_consultoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_consultoria #consultoria_nome {
+        font-size: 18px;
+    }
+
+    .container_consultoria p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .container_consultoria img {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .container_mentoria {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .container_mentoria h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container_mentoria #mentoria_nome {
+        font-size: 18px;
+    }
+
+    .container_mentoria p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .container_mentoria img {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer_main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+    }  
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }  
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+    .topnav a {
+        float: left;
+        color: #f7f3f0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+}
